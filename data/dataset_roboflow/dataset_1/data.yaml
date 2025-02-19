@@ -1,0 +1,13 @@
+train: C:/Users/Lenovo/PycharmProjects/CNN_Project/data/dataset_roboflow/dataset_1
+val: C:/Users/Lenovo/PycharmProjects/CNN_Project/data/dataset_roboflow/dataset_1
+test: C:/Users/Lenovo/PycharmProjects/CNN_Project/data/dataset_roboflow/dataset_1
+
+nc: 1
+names: ['piedra_cobre']
+
+roboflow:
+  workspace: luchinol
+  project: albionobjdetect
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/luchinol/albionobjdetect/dataset/2
