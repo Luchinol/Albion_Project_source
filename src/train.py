@@ -2,7 +2,7 @@ from ultralytics import YOLO
 
 def main():
     # Ruta al archivo YAML; ajústala según tu estructura de carpetas.
-    data_path = "/data/dataset_roboflow/dataset_1/data.yaml"
+    data_path = "C:/Users/Lenovo/PycharmProjects/CNN_Project/data/dataset_roboflow/dataset_1/data.yaml"
     # Carga el modelo pre-entrenado, puedes variar a un modelo diferente (por ejemplo, yolov8s.pt)
     model = YOLO("yolov8n.pt")
 
@@ -12,3 +12,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
