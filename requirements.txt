@@ -1,3 +1,20 @@
-ultralytics
-opencv-python
-numpy
+C:/Users/Lenovo/PycharmProjects/CNN_Project/requirements.txt
+# Lista de dependencias para el proyecto
+
+# OpenCV para procesamiento de imágenes
+opencv-python>=4.7.0.72
+
+# NumPy para operaciones numéricas y manejo de arrays
+numpy>=1.21
+
+# mss para captura de pantalla
+mss>=8.0.1
+
+# ultralytics para trabajar con el modelo YOLOv8
+ultralytics>=8.0.19
+
+# PyTorch, requerido por ultralytics para la ejecución de modelos
+torch>=1.7.1
+
+# Torchvision para utilidades adicionales de procesamiento de imágenes en PyTorch
+torchvision>=0.8.2
