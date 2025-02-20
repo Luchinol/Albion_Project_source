@@ -5,7 +5,7 @@ from ultralytics import YOLO
 
 def main():
     # Carga el modelo entrenado (.pt) con YOLOv8
-    model_path = "C:/Users/Lenovo/PycharmProjects/CNN_Project/src/runs/detect/train3/weights/best.pt"
+    model_path = "C:/Users/Lenovo/PycharmProjects/CNN_Project/src/runs/detect/train2/weights/best.pt"
     model = YOLO(model_path)
 
     # Configuración de la ventana para mostrar el resultado (600x400 píxeles)
