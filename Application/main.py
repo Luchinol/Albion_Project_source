@@ -18,9 +18,7 @@ def main():
         cv2.imshow("Detection", annotated_img)
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
-
-        # Se ha eliminado la impresión de los FPS:
-        # print(f"FPS: {1 / (time() - start_time):.2f}")
+        #print(f"FPS: {1 / (time() - start_time):.2f}")
 
     cv2.destroyAllWindows()
 
